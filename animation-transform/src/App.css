@@ -1,0 +1,127 @@
+/* Animation */
+
+/* Fade in/out */
+.fade {
+  color:darkgreen;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  pointer-events: none; 
+  align-items: center;
+}
+
+.fade.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+/* Sidebar */
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background: #333;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: -200px;
+  transition: transform 0.5s;
+}
+.sidebar.open {
+  transform: translateX(200px);
+}
+
+/* Flip Card */
+.card {
+  width: 200px;
+  height: 150px;
+  perspective: 1000px;
+}
+.inner {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.card:hover .inner {
+  transform: rotateY(180deg);
+}
+.front, .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.back {
+  transform: rotateY(180deg);
+  background: lightblue;
+}
+.front {
+  background: pink;
+}
+
+/* Progress Bar */
+.progress-container {
+  width: 100%;
+  background: #ddd;
+  height: 20px;
+  margin-top: 10px;
+}
+.progress {
+  height: 100%;
+  width: 0;
+  background: green;
+  transition: width 1s linear;
+}
+/* Common Button Style */
+.btn {
+  background-color: #f44336; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #d32f2f; 
+}
+   /*transform*/
+
+
+   /* Zoom Image */
+.zoom-img {
+  width: 200px;
+  transition: transform 0.3s;
+  margin-top: 30px;
+}
+.zoom-img:hover {
+  transform: scale(1.2);
+}
+
+/* Rotating Square */
+.square {
+  width: 100px;
+  height: 100px;
+  background: red;
+  animation: rotate 2s infinite linear;
+}
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Tilt Button */
+.tilt-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: transform 0.3s;
+  background-color: orange;
+  border: none;
+}
+.tilt-btn:hover {
+  transform: rotateX(20deg) rotateY(25deg);
+}

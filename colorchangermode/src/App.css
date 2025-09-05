@@ -1,0 +1,30 @@
+.colorPalette button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.color1 { background-color: red; }
+.color2 { background-color: blue; }
+.color3 { background-color: green; }
+.color4 { background-color: orange; }
+.color5 { background-color: purple; }
+
+.dark {
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #444; 
+  color: #fff;           
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dark:hover {
+  background-color: #666; 
+}

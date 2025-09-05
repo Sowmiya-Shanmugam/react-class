@@ -1,0 +1,147 @@
+.card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Auto-fit into 4 columns */
+  gap: 20px;  
+  padding: 40px;
+  max-width: 1500px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+
+.card-img img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.card-title {
+  padding: 15px;
+}
+
+.card-title p:first-child {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.card-title p:nth-child(2) {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.4;
+}
+
+.card-price-cart {
+  padding: 0 15px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.card-price-cart p {
+  color: #28a745;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.card-price-cart button {
+  background-color: #007bff;
+  border: none;
+  color: #ffffff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.card-price-cart button:hover {
+  
+  background-color: #ee67b6;
+  color:black;
+}
+
+.card-price-cart .startbtn1{
+background-color: yellowgreen;
+}
+.card-price-cart .startbtn2{
+background-color: rgb(230, 34, 34);
+}
+.card-price-cart .startbtn3{
+background-color: rgb(199, 171, 13);
+}
+.edit-product-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 25px ;
+  
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  height: 450px;
+}
+
+.edit-product-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.edit-product-container input,
+.edit-product-container textarea {
+  width: 94%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.edit-product-container input:focus,
+.edit-product-container textarea:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 8px rgba(175, 121, 59, 0.2);
+}
+
+.edit-product-container textarea {
+  resize: none;
+  height: 100px;
+}
+
+.edit-product-container button {
+  width: 100%;
+  padding: 12px;
+  background: #d6767e;
+  color: #141212;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.edit-product-container button:hover {
+  background: #45a049;
+  color: #ffffff;
+}
