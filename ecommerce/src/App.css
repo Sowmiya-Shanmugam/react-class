@@ -1,0 +1,234 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+body {
+  background-color: #eaeded;
+}
+
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+
+.product-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: all 0.2s ease;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transform: translateY(-3px);
+}
+
+
+.product-card img {
+  max-width: 100%;
+  max-height: 180px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+
+.product-card h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #0f1111;
+}
+
+.product-card p {
+  margin-bottom: 5px;
+  color: #565959;
+  font-size: 14px;
+}
+
+.product-card .price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #b12704;
+}
+
+
+.product-card button {
+  background-color: #f0c14b;
+  border: 1px solid #a88734;
+  border-radius: 3px;
+  color: #111;
+  padding: 8px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.product-card button:hover {
+  background-color: #e2b33c;
+}
+
+
+.product-card .btn-group {
+  display: flex;
+  gap: 8px;
+}
+
+.amazon-btn {
+  background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+  border: 1px solid #a88734;
+  border-radius: 3px;
+  color: #111;
+  padding: 8px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 0 rgba(255,255,255,0.4) inset;
+}
+
+.amazon-btn:hover {
+  background: linear-gradient(to bottom, #f5d78e, #e2b33c);
+}
+
+.amazon-btn:active {
+  background: linear-gradient(to bottom, #e2b33c, #f0c14b);
+  transform: scale(0.97);
+}
+
+.navbar {
+  background-color: #131921;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.navbar .logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar .logo span {
+  color: #f0c14b; 
+}
+
+.navbar .nav-links {
+  margin-left: auto;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.navbar .nav-links a:hover {
+  color: #f0c14b;
+}
+
+.product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+  max-width: 500px;
+}
+
+
+.product-form input {
+  border: 1px solid #ccc;
+  padding: 10px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  background-color: #fafafa;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.product-form input:focus {
+  outline: none;
+  border-color: #f0c14b;
+  background-color: #fff;
+}
+
+
+.product-form .btn-group {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.product-form {
+  max-width: 450px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  font-family: Arial, sans-serif;
+}
+
+.product-form input {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.product-form input:focus {
+  outline: none;
+  border-color: #f0c14b;
+  box-shadow: 0 0 4px rgba(240, 193, 75, 0.5);
+}
+
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+
+.amazon-btn {
+  background-color: #f0c14b;
+  border: 1px solid #a88734;
+  border-radius: 8px;
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #111;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.amazon-btn:hover {
+  background-color: #ddb347;
+}
+
+.amazon-btn:active {
+  transform: scale(0.98);
+}
