@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.fa731dc0.css",
+    "main.js": "/portfolio/static/js/main.c7c91aa2.js",
+    "static/js/453.ad7768ec.chunk.js": "/portfolio/static/js/453.ad7768ec.chunk.js",
+    "static/media/famms-thumnail.jpg": "/portfolio/static/media/famms-thumnail.fc542af848767e1103a8.jpg",
+    "static/media/ecommerce.png": "/portfolio/static/media/ecommerce.0df8c895f5a2fbd02bc3.png",
+    "static/media/weather-thumnail.jpg": "/portfolio/static/media/weather-thumnail.22226cc8b475ba985450.jpg",
+    "static/media/ecommerce-thumnail.jpg": "/portfolio/static/media/ecommerce-thumnail.d0127d716b9448bc2c0a.jpg",
+    "static/media/quiz.png": "/portfolio/static/media/quiz.a88a17ecc0e1ae894f5e.png",
+    "static/media/photo.jpg": "/portfolio/static/media/photo.5d13b0be3b3ba61c4488.jpg",
+    "static/media/weather.png": "/portfolio/static/media/weather.2588d51af5437da6f0b1.png",
+    "static/media/quizthumnail.png": "/portfolio/static/media/quizthumnail.0af392292e76c2beb28e.png",
+    "static/media/todo thumnail.jpg": "/portfolio/static/media/todo thumnail.a786e0625230b28ed12a.jpg",
+    "static/media/portfolio-thumnail.jpg": "/portfolio/static/media/portfolio-thumnail.6da578495e815acc61f0.jpg",
+    "static/media/portfolioImg.png": "/portfolio/static/media/portfolioImg.5d388a343c62eea93c90.png",
+    "static/media/todoAppImg.png": "/portfolio/static/media/todoAppImg.a79572aabad01f5d425d.png",
+    "static/media/fammsWebsiteImg.png": "/portfolio/static/media/fammsWebsiteImg.adc7b2b6555c344f0a8f.png",
+    "index.html": "/portfolio/index.html",
+    "main.fa731dc0.css.map": "/portfolio/static/css/main.fa731dc0.css.map",
+    "main.c7c91aa2.js.map": "/portfolio/static/js/main.c7c91aa2.js.map",
+    "453.ad7768ec.chunk.js.map": "/portfolio/static/js/453.ad7768ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa731dc0.css",
+    "static/js/main.c7c91aa2.js"
+  ]
+}
